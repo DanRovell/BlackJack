@@ -19,7 +19,6 @@ def newDeck(values):
     deck = []
     suits = ['hearts', 'diamonds', 'spades', 'clubs']
     index = 0
-    # for i in range(0, len(values)):
     for key in values:
         for f in range(0, len(suits)):
             deck.append(key + ' of ' + suits[f])
