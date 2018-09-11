@@ -47,7 +47,6 @@ def computeScore(hand):
     ace_check = True
     while ace_check == True:
         if total > 21 and 11 in value_set:
-            
             value_set.remove(11)
             value_set.append(1)
             total = sum(value_set)
