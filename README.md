@@ -3,3 +3,4 @@ Command Prompt Black Jack written for python 3. Game stats are saved to a text f
 
 How to use:
 Depending on your install run 'python3 blackjack.py' or '*your python3 command* blackjack.py'
+A blackjack.txt file is created to store stats.
