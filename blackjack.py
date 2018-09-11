@@ -1,4 +1,4 @@
-#Daniel Rovell
+#Author: Daniel Rovell
 #Black Jack Game for Praeses
 #This game was made to run with python 3
 
