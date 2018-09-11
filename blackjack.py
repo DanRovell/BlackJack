@@ -35,7 +35,7 @@ class Player:
         draw = random.choice(deck) 
         return draw
 
-#Computer the score from the worded names because I wanted to type out the names and not just numbers
+#Computer the score and run an ace check
 def computeScore(hand):
     total = 0
     value_set = []
@@ -217,6 +217,7 @@ def main():
                 dealerTotal = 0
                 status = 'initialize'
             elif choice == 'no':
+                #Output game stats
                 now = datetime.datetime.now()
                 f = open("blackjack.txt", "a")
                 f.write('{0} Game Stats == Money Left: ${1}, Player Won: ${2}, Player Lost: ${3}\n'.format(now , playerMoney, playerWon, playerLost) )
